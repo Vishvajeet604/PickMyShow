@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fc;
+    color: #333;
+}
+
+/* Registration form */
+form {
+    width: 100%;
+    max-width: 420px;
+    margin: 60px auto 20px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
+}
+
+/* Labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #26354d;
+}
+
+/* Input fields */
+form input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d0d7e2;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    /* background: #ffffff; */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Input focus */
+form input:focus {
+    border-color: #4169e1;
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.12);
+}
+
+/* Buttons */
+form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+/* Register button */
+form button[type="submit"] {
+    background: #4169e1;
+    color: white;
+}
+
+form button[type="submit"]:hover {
+    background: #3154bd;
+}
+
+/* Clear button */
+form button[type="reset"] {
+    background: #e9edf5;
+    color: #26354d;
+}
+
+form button[type="reset"]:hover {
+    background: #dce3ef;
+}
+
+/* Horizontal line */
+hr {
+    width: 90%;
+    max-width: 420px;
+    margin: 25px auto;
+    border: none;
+    border-top: 1px solid #dce2ec;
+}
+
+/* Login link section */
+p {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+p a {
+    color: #4169e1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    form {
+        width: calc(100% - 32px);
+        margin: 30px auto 20px;
+        padding: 24px;
+    }
+}

@@ -1,0 +1,39 @@
+.signin-container {
+    width: 350px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.signin-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signin-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.signin-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.signin-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signin-container p {
+    text-align: center;
+    margin-top: 20px;
+}
